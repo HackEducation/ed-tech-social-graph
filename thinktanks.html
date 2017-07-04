@@ -17,7 +17,7 @@ title: Think Tanks (and Ed-Tech)
 
 {% for thinktank in thinktanks %}
 
-<p><strong><u>{{ thinktank.Name }}</u></strong>: {{ thinktank.Location }} (<a href="{{ thinktank.URL }}">{{ thinktank.URL }}</a>) </p> 
+<p><strong><a href="{{ thinktank.URL }}">{{ thinktank.Name }}</a></strong>: {{ thinktank.Location }}</p> 
 
 <p>Political Orientation: {{ thinktank.Orientation }}</p>
 
