@@ -1,0 +1,31 @@
+layout: default
+title: Foundations (and Ed-Tech)
+---
+<h3>Foundations</h3>
+<br />
+
+<p><em>These are a handful of the foundations that feature prominently in education research and policy discussions:</p></em>
+
+<hr >
+
+<!-- Think Tanks -->
+{% assign foundations = site.data.foundations %}
+{% assign foundations = foundations | sort:"Name" %}
+
+<!-- Document -->
+
+{% for foundation in foundations %}
+
+<p><strong><u>{{ foundation.Name }}</u></strong>: {{ foundation.Location }} (<a href="{{ foundation.URL }}">{{ foundation.URL }}</a>) </p> 
+
+<p>Policy Focus: {{ foundation.Focus }}</p>
+
+<p>Source of Funding: {{ foundation.Funding }}</p>
+
+<p>Prominent Projects Funded: {{ foundation.Projects }}</p>
+
+<p>Notable Figures: {{ foundation.Figures }}</p>
+
+<hr >
+{% endfor %}
+ 

@@ -1,0 +1,30 @@
+layout: default
+title: Think Tanks (and Ed-Tech)
+---
+<h3>Think Tanks</h3>
+<br />
+
+<p><em>These are a handful of the think tanks that feature prominently in education research and policy discussions:</p></em>
+
+<hr />
+
+<!-- Think Tanks -->
+{% assign thinktanks = site.data.thinktanks %}
+{% assign thinktanks = thinktanks | sort:"Name" %}
+
+<!-- Document -->
+
+{% for thinktank in thinktanks %}
+
+<p><strong><u>{{ thinktank.Name }}</u></strong>: {{ thinktank.Location }} (<a href="{{ thinktank.URL }}">{{ thinktank.URL }}</a>) </p> 
+
+<p>Political Orientation: {{ thinktank.Orientation }}</p>
+
+<p>Policy Focus: {{ thinktank.Focus }}</p>
+
+<p>Prominent Funders: {{ thinktank.Funders }}</p>
+
+<p>Notable Figures: {{ thinktank.Figures }}</p>
+
+<hr >
+{% endfor %}
