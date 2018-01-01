@@ -4,7 +4,9 @@ I'm really glad you're reading this, because despite not having comments on my w
 
 ## Submitting changes or comments
 
-Please file a [GitHub Issue](https://github.com/hackeducation/ed-tech-social-graph/issues/new) with a question or comment. You can also submit a [Pull Request](https://github.com/hackeducation/ed-tech-social-graph/pulls) if there's a particular correction you believe needs to be made. Please make comments and changes as atomic as possible. It's just me working on this site, but I will try to respond promptly. 
+Please file a [GitHub Issue](https://github.com/hackeducation/network/issues/new) with a question or comment. You can also submit a [Pull Request](https://github.com/hackeducation/network/pulls) if there's a particular correction you believe needs to be made. Please make comments and changes as atomic as possible. It's just me working on this site, but I will try to respond promptly. 
+
+You can contact me at mail@audreywatters.com, but if possible post your issues using GitHub so others can see them.
 
 Thanks,
 Audrey
